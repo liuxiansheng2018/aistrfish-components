@@ -16,4 +16,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.AISTRFISH }}
-          publish_dir: ./docs-dist
+          publish_dir: ./doc-site
