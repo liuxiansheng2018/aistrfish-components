@@ -11,9 +11,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: npm i
-      - run: npm run build:site
+      - run: npm run docs:build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.AISTRFISH }}
-          publish_dir: ./doc-site
+          publish_dir: ./docs-dist
