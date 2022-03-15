@@ -11,6 +11,8 @@ defaultShowCode: true
 
 ## Foo
 
+<code src="./demo/basic.tsx"></code>
+
 ```tsx
 import React from 'react';
 import { Button } from 'aistrifish';
