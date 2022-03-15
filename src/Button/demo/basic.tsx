@@ -1,5 +1,4 @@
 import React from 'react';
-import Button from '../';
-import '../styles';
-import 'antd/dist/antd.css';
-export default () => <Button title="warning"></Button>;
+import { Button } from 'aistrifish';
+
+export default () => <Button title="First Demo" />;
