@@ -1,7 +1,8 @@
 import React from 'react';
+import { Button } from 'antd';
 
 function InternalButton(props: any) {
-  return <div>{props.title}</div>;
+  return <Button>{props.title}89</Button>;
 }
 
 export default InternalButton;

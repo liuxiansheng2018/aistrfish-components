@@ -1,14 +1,14 @@
 {
-  "private": true,
   "name": "aistrifish",
-  "version": "1.0.0",
+  "version": "1.0.3",
+  "private": false,
   "typings": "lib/index.d.ts",
   "main": "lib/index.js",
   "module": "esm/index.js",
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
-  },
+  "files": [
+    "lib",
+    "esm"
+  ],
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -46,6 +46,7 @@
     "@types/react-dom": "^17.0.13",
     "@types/react-router": "^5.1.12",
     "add": "^2.0.6",
+    "antd": "^3.23.1",
     "cpr": "^3.0.1",
     "cross-env": "^7.0.3",
     "gulp": "^4.0.2",
