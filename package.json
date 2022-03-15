@@ -9,6 +9,9 @@
     "lib",
     "esm"
   ],
+  "bin": {
+    "aistrifish": "lib/index.js"
+  },
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
