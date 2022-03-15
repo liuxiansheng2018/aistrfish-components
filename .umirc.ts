@@ -17,5 +17,6 @@ export default defineConfig({
   mode: 'site',
   base,
   publicPath,
+
   // more config: https://d.umijs.org/config
 });
